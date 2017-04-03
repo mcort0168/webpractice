@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.10/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '$63v&)p-4+-pi)rvk546dsvhnt$=_jh$1s5rppy+bj_c9yes0*'
+SECRET_KEY = "  "
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -81,11 +81,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         #'NAME': os.path.join(BASE_DIR, 'bloggy.db'),
-        'NAME' : 'Django Server',
-        'USER' : 'postgres',
-        'PASSWORD' : 'mcort0168',
-        'HOST' : '127.0.0.1',
-        'PORT' : '5432',
+
     }
 }
 
